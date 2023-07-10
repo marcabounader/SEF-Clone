@@ -160,6 +160,8 @@ nav .dropbtn{
     align-items: center;
     margin-left: auto;
     display: flex;
+    cursor: pointer;
+
 }
 
 nav.dropbtn img{
