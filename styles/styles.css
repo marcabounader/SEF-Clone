@@ -922,3 +922,64 @@ nav.dropbtn img{
     font-weight: 800;
     white-space: nowrap;
 }
+
+.footer-container{
+    background-color: #232323;
+    color:#a5a6a9;
+    
+}
+.footer-sub-container{
+    max-width: 1340px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-content-column{
+    flex-direction: column;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.footer-content-row{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-content-row a, .footer-content-row-copyright a{
+    text-decoration: none;
+    color: #a5a6a9;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+.footer-content-title{
+    color: #dcdee1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+}
+
+.footer-content-row-copyright{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    margin:70px 0px;
+}
+
+.footer-content-copyright{
+    color: #a5a6a9;
+    font-size: 12px;
+}
