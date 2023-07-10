@@ -562,3 +562,12 @@ nav.dropbtn img{
     font-size: 22px;
     grid-column-gap: 40px;
 }
+
+.companies-joined{
+    color: #fcfcfd;
+    text-align: left;
+    background-color: #363738;
+    padding: 15px 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
