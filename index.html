@@ -5,6 +5,8 @@
         <title>SE Factory - Want to become a software engineer?</title>
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Mono&display=swap">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     </head>
     <body>
         <header>
@@ -29,10 +31,18 @@
                 <a href="/" aria-current="page" class="logo">
                        <img src="https://uploads-ssl.webflow.com/63e3828f575098222357ad70/63e3c538627455556c58db15_Property%201%3Dlogo_text.svg" alt="SE Factory logo">
                </a>
-               <a href="#home" class="dropbtn">
-                    <img src="https://uploads-ssl.webflow.com/63e3828f575098222357ad70/63e3e7ca1d8233466f026a12_menu-icon.svg" loading="lazy" alt="" class="image">              
-               </a>
-            </button>
+                <button onclick="document.getElementById('id01').style.display='block'" class="dropbtn">                 
+                    <img src="https://uploads-ssl.webflow.com/63e3828f575098222357ad70/63e3e7ca1d8233466f026a12_menu-icon.svg" loading="lazy" alt="" class="image">    
+                </button>    
+                <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content">
+                      <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <p>Some text in the Modal..</p>
+                        <p>Some text in the Modal..</p>
+                      </div>
+                    </div>
+                </div>      
             </nav>  
 
         </header>
