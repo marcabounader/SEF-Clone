@@ -798,3 +798,29 @@ nav.dropbtn img{
     font-size: 22px;
     line-height: 1.4;
 }
+
+.form-text-area{
+    min-height: 120px;
+    margin-bottom: 0;
+    width: 100%;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+}
+.radio-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: baseline;
+    color: #fcfcfd;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 15px 20px;
+    font-weight: 800;
+    
+}
