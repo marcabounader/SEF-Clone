@@ -374,13 +374,27 @@ nav.dropbtn img{
 
 }
 
+.milestones-content{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    flex-grow: 1;
+
+}
 .milestones-content-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
+    flex-grow: 1;
+}
+.milestones-content-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    flex-grow: 1;
     padding-top: 50px;
 }
-
 
 .milestones-content-box-container
 {
@@ -392,7 +406,7 @@ nav.dropbtn img{
     margin: 20px;
     padding:40px;
     text-align:center;
-
+    flex-grow: 1;
 }
 
 .milestones-content-box-title{
