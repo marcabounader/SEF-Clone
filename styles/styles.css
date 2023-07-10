@@ -317,13 +317,11 @@ nav.dropbtn img{
     padding-right:70px;
     flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
 }
 .video-title{
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 
 }
 
@@ -337,7 +335,6 @@ nav.dropbtn img{
     object-fit: fill;
     border: 15px solid #28eea7;
     border-radius: 20px;
-    flex-wrap: wrap;
 
 }
     
