@@ -139,7 +139,6 @@ body {
     right: 0%;
     max-width: 90%;
     margin:auto;
-    
 }
 
 
@@ -171,6 +170,129 @@ nav.dropbtn img{
     
 }
 
+.modal-container{
+    display:none;
+    flex-direction: column;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: scroll;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(35, 35, 35, .9);
+    z-index: 9999999;
+    height: 100vh;
+
+}
+.modal-sub-container{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 120px;
+    display: flex;
+    position: absolute;
+    top: 190px;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+    max-width: 1340px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+}
+.modal-left{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+.modal-left a:first-child{
+    color: #28eea7;
+}
+.modal-left a{
+    color: #a5a6a9;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    flex-grow:1;
+}
+.modal-right{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-grow:1;
+    color:white;
+    align-self: stretch;
+    align-items:flex-end;
+    flex-basis: 30%;
+
+}
+
+.modal-login-container{
+    flex-basis: 50px;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #363738;
+    border-radius: 20px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-self: stretch;
+
+
+}
+.modal-login-container-header{
+    color: #a5a6a9;
+    text-align: left;
+    flex: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.modal-login-title{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #fcfcfd;
+}
+.modal-login-container-buttons .modal-login-container-first-button{
+    margin-top:50px;
+    color: #363738;
+    background-color: #28eea7;
+    text-align: center;
+    text-decoration: none; 
+    padding: 15px 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.modal-login-container-buttons .modal-login-container-second-button{
+    color: #363738;
+    background-color: #fcfcfd;   
+    text-align: center;
+    text-decoration: none; 
+    padding: 15px 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+
+.modal-login-icon{
+    color: #fcfcfd;
+    background-color: #31b7f0;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+    align-self: stretch;
+    text-decoration: none;
+}
 .header-container{
     height: 100vh;
     min-height: 100%;
@@ -181,6 +303,11 @@ nav.dropbtn img{
     flex-wrap:wrap;
 }
 
+.modal-login-icon-sub-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
 .left-item {
     display: flex;
     flex-direction: column;
