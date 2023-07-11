@@ -170,6 +170,7 @@ nav.dropbtn img{
     
 }
 
+
 .modal-container{
     display:none;
     flex-direction: column;
@@ -294,8 +295,8 @@ nav.dropbtn img{
     color:white;
     flex-direction: row;
     display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
+    /* justify-content: center; */
+    align-content: stretch;
 }
 
 .modal-login-icon-sub-container{
@@ -343,6 +344,16 @@ nav.dropbtn img{
     background-position: 0 0, 50%;
     background-size: auto, cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-container{
+        flex-basis: 0%;
+        flex-direction: column;
+
+        /* justify-content: flex-start; */
+    }
+}
+
 .left-item h1:first-child{
     color: #fcfcfd;
     background-color: #363738;
